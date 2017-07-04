@@ -3,6 +3,7 @@
 
 using namespace std;
 
+//Checks whether the two characters form a number less than or equal to 26
 bool isWithin26(char first, char second) {
     if(first=='1' || (first=='2' && second<='6'))
         return true;
